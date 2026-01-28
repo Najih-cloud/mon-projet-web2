@@ -37,11 +37,13 @@ header {
     box-shadow: 0 8px 20px rgba(0,0,0,0.5); 
     border: 1px solid #30363d;
 }
-.mooo{position: fixed;
+.mooo{ 
+    position: fixed;
     bottom: 20px;
     right: 20px;
     width: 80px;         
-    z-index: 1000;}
+    z-index: 1000;
+}
 
 nav {
     background-color: #010409;
@@ -122,3 +124,4 @@ footer {
     margin-bottom: 20px;
 
 }
+
