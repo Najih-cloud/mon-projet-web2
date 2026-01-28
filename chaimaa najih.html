@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exploration Cosmique | Projet TP</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        /* CSS Interne [cite: 16] */
+        :root { --accent: #00d4ff; }
+        .external-links { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-top: 20px; }
+        .card { background: rgba(255,255,255,0.05); padding: 15px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body id="top">
+
+    <header>
+        <div class="header-container">
+          <img src="photo.jpg" alt=".." class="profile-pic">
+            <h1 class="main-title">L'UNIVERS ET SES MYSTÈRES</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#data">Statistiques</a></li>
+            <li><a href="#links">Ressources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="github-qr">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://github.com/votre-nom" alt="QR Github">
+        <p>Mon Github</p>
+    </div>
+
+    <main>
+        <section id="intro">
+            <article>
+                <h2>Bienvenue dans le Cosmos</h2>
+                <p>Explorez les profondeurs de l'espace à travers ce site interactif conçu pour le TP[cite: 1, 20].</p>
+            </article>
+        </section>
+
+        <section id="data">
+            <h2>Données sur le Système Solaire</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Objet</th>
+                        <th>Type</th>
+                        <th>Distance (M km)</th>
+                        <th>Gravité (m/s²)</th>
+                        <th>Lunes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Vénus</td><td>Tellurique</td><td>108</td><td>8.87</td><td>0</td></tr>
+                    <tr><td>Neptune</td><td>Géante glace</td><td>4495</td><td>11.15</td><td>14</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="links">
+            <h2>Enrichir vos connaissances</h2>
+            <div class="external-links">
+                <div class="card">
+                    <a href="https://www.nasa.gov" target="_blank">NASA Official</a>
+                    <p>L'actualité de l'agence spatiale américaine.</p>
+                </div>
+                <div class="card">
+                    <a href="https://www.esa.int" target="_blank">ESA Europe</a>
+                    <p>Les missions spatiales européennes.</p>
+                </div>
+                <div class="card">
+                    <a href="https://hubblesite.org" target="_blank">Hubble Site</a>
+                    <p>Les plus belles images du télescope spatial.</p>
+                </div>
+                <div class="card">
+                    <a href="https://www.stelvision.com" target="_blank">Stelvision</a>
+                    <p>Guide pratique pour l'observation du ciel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <a href="mailto:votre.nom@ecole.fr" class="btn-mail">Envoyer un Message</a>
+            <a href="#top" class="btn-top">↑ Retour en haut</a>
+        </section>
+    </main>
+
+    <footer>
+        <pre class="ascii">
+  _   _   _   _   _  
+ / \ / \ / \ / \ / \ 
+( S | P | A | C | E )
+ \_/ \_/ \_/ \_/ \_/ 
+        </pre>
+        <p class="copyright">© 2026 - [chaimaa najih] - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
+      

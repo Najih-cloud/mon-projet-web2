@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.main-title {
+    background-color: #161b22; 
+    padding: 20px 40px;
+    border-radius: 20px; 
+    text-align: center;
+    text-shadow: 2px 2px 8px #000; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5); 
+    border: 1px solid #30363d;
+}
+
+
+nav {
+    background-color: #010409;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-menu {
+    display: flex; 
+    justify-content: center;
+    list-style: none; 
+}
+
+.nav-menu li { margin: 0 20px; }
+
+.nav-menu a {
+    text-decoration: none; 
+    color: #58a6ff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover { color: #ffcc00; }
+
+.floating-qrcode {
+    position: fixed; 
+    top: 100px;
+    right: 20px;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 11px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #161b22;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #30363d;
+    text-align: center;
+}
+
+th { background-color: #21262d; color: #ffcc00; }
+
+.action-buttons { margin-top: 30px; }
+
+.btn-mail, .btn-top {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-mail { background: #238636; color: white; }
+.btn-top { background: #30363d; color: white; }
+
+footer {
+    padding: 60px;
+    background: #010409;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ascii-name {
+    color: #ffcc00;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
